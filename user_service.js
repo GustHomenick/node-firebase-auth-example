@@ -17,3 +17,4 @@ exports.addUser = (email, password) =>
 
 exports.authenticate = (email, password) =>
   signInWithEmailAndPassword(auth, email, password);
+ 
